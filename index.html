@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MicroLab IoT — proyectos, guías y recursos para microcontroladores, electrónica e Internet de las Cosas.">
+  <title>MicroLab IoT | Microcontroladores & IoT</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#inicio"><span>◈</span> MicroLab <b>IoT</b></a>
+    <nav>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#microcontroladores">Microcontroladores</a>
+      <a href="#nosotros">Sobre el laboratorio</a>
+    </nav>
+    <a class="github-btn" href="https://github.com/mateo-stay/-microlab-iot" target="_blank">GitHub ↗</a>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="grid-bg"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> LABORATORIO DIGITAL · IoT</p>
+        <h1>Construye.<br><span>Conecta.</span><br>Automatiza.</h1>
+        <p class="hero-text">Un espacio para descubrir proyectos con Arduino, ESP32, Raspberry Pi, sensores y todo lo que convierte una idea en un dispositivo inteligente.</p>
+        <div class="hero-actions">
+          <a class="primary" href="#proyectos">Explorar proyectos →</a>
+          <a class="secondary" href="#microcontroladores">Ver plataformas</a>
+        </div>
+      </div>
+      <div class="chip-card">
+        <div class="chip-top"><span>ESP32</span><span>WiFi · BLE</span></div>
+        <div class="chip">
+          <div class="chip-core">ESP<br><small>32</small></div>
+          <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <div class="signal"><span></span><span></span><span></span><span></span><span></span></div>
+        <p>IDEAS → PROTOTIPOS → PROYECTOS</p>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <div class="section-head">
+        <div><p class="eyebrow">01 · PROYECTOS</p><h2>De la idea al prototipo.</h2></div>
+        <button class="filter active" data-filter="all">Todos</button>
+      </div>
+      <div class="cards">
+        <article class="project-card" data-category="iot">
+          <div class="card-icon">◉</div><span class="tag">IoT</span>
+          <h3>Estación meteorológica</h3>
+          <p>Temperatura, humedad y presión enviadas a un dashboard en tiempo real.</p>
+          <div class="meta"><span>ESP32</span><span>MQTT</span><span>★★★</span></div>
+        </article>
+        <article class="project-card" data-category="arduino">
+          <div class="card-icon">⌁</div><span class="tag">ARDUINO</span>
+          <h3>Riego automático</h3>
+          <p>Control inteligente de humedad del suelo con sensores y bomba de agua.</p>
+          <div class="meta"><span>Arduino UNO</span><span>Relay</span><span>★★</span></div>
+        </article>
+        <article class="project-card" data-category="robotica">
+          <div class="card-icon">✦</div><span class="tag">ROBÓTICA</span>
+          <h3>Robot explorador</h3>
+          <p>Vehículo autónomo con ultrasonido para detectar y evitar obstáculos.</p>
+          <div class="meta"><span>ESP8266</span><span>Servo</span><span>★★★</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="microcontroladores" class="section platforms">
+      <div class="section-head">
+        <div><p class="eyebrow">02 · PLATAFORMAS</p><h2>Elige tu placa.</h2></div>
+      </div>
+      <div class="platform-grid">
+        <div><span class="platform-number">01</span><h3>Arduino</h3><p>Perfecto para aprender electrónica, sensores y automatización.</p></div>
+        <div><span class="platform-number">02</span><h3>ESP32</h3><p>Wi‑Fi, Bluetooth y potencia para proyectos IoT conectados.</p></div>
+        <div><span class="platform-number">03</span><h3>Raspberry Pi</h3><p>Computación, servidores, cámaras y proyectos más avanzados.</p></div>
+        <div><span class="platform-number">04</span><h3>ESP8266</h3><p>Una opción compacta y económica para conectividad Wi‑Fi.</p></div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="manifesto">
+      <p class="eyebrow">03 · EL LABORATORIO</p>
+      <h2>La electrónica también<br><span>se puede compartir.</span></h2>
+      <p>MicroLab IoT nace como una maqueta de laboratorio abierto para documentar proyectos, aprender y experimentar con tecnología.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 MicroLab IoT</span>
+    <span>Hecho para experimentar · <a href="https://github.com/mateo-stay/-microlab-iot">GitHub ↗</a></span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
